@@ -30,13 +30,14 @@ Max subarray sum is -1
 of element (-1)
      */
     long maxSubArraySum(int[] data, int n) {
-        long toReturn = 0;
+       /* long toReturn = 0;
 
         for(int i =  0; i < data.length; i++) {
             toReturn > (toReturn + data[i]) || toReturn == 0
                     ?
 
-        }
+        }*/
+        return -1l;
 
     }
 }
